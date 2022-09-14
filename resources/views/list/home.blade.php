@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>List Page</title>
 </head>
 <body>
-    <h1>HOME PAGE</h1>
-    <h2>Hello World</h2>
-    
-    <a href="{{ url('/list') }}">LISTA CORSO BOOLEAN</a>
+    <h1>Corso Boolean</h1>
+    <ul>
+        <li>Front End</li>
+        <li>Back End</li>
+    </ul>
 </body>
 </html>
